@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>scroll bar</title>
+	<style type="text/css">
+	*{padding:0; margin:0;}
+
+	#scroll_main{
+		position:relative;
+		width:400px;
+		height:200px;
+		margin:100px auto;
+		overflow: hidden;
+		border:1px solid #ccc;
+	}
+	#scroll_main>div{	
+		position:absolute;
+		padding:6px;
+	}
+	</style>
+	<script type="text/javascript" src="app/index.js"></script>
+</head>
+<body>
+	<div id="scroll_main">
+		<div>
+			<p>i测试测试测试测试测试i测试测试测试测试测试i测试测试测试测试测试i测试测试测试测试测试i测试测试测试测试测试i测试测试测试测试测试i测试测试测试测试测试i测试测试测试测试测试i测试测试测试测试测试i测试测试测试测试测试i测试测试测试测试测试i测试测试测试测试测试i测试测试测试测试测试i测试测试测试测试测试</p>
+			<img src="app/img.jpg">
+			<p>i测试测试测试测试测试i测试测试测试测试测试i测试测试测试测试测试i测试测试测试测试测试i测试测试测试测试测试i测试测试测试测试测试i测试测试测试测试测试i测试测试测试测试测试i测试测试测试测试测试i测试测试测试测试测试i测试测试测试测试测试i测试测试测试测试测试i测试测试测试测试测试i测试测试测试测试测试</p>
+			<p>ceshi测试测试测试测试测试i测试测试测试测试测试i测试测试测试测试测试i测试测试测试测试测试i测试测试测试测试测试i测试测试测试测试测试i测试测试测试测试测试</p>
+			<p>i测试测试测试测试测试i测试测试测试测试测试i测试测试测试测试测试i测试测试测试测试测试i测试测试测试测试测试i测试测试测试测试测试i测试测试测试测试测试i测试测试测试测试测试i测试测试测试测试测试i测试测试测试测试测试</p>
+			<ul>
+				<li>i测试测试测试测试测试i测试测试测试测试测试i测试测试测试测试测试i测试测试测试测试测试i测试测试测试测试测试i测试测试测试测试测试</li>
+				<li>i测试测试测试测试测试i测试测试测试测试测试i测试测试测试测试测试i测试测试测试测试测试</li>
+				<li>i测试测试测试测试测试i测试测试测试测试测试</li>
+				<li>i测试测试测试测试测试i测试测试测试测试测试i测试测试测试测试测试i测试测试测试测试测试i测试测试测试测试测试i测试测试测试测试测试i测试测试测试测试测试i测试测试测试测试测试i测试测试测试测试测试i测试测试测试测试测试i测试测试测试测试测试i测试测试测试测试测试i测试测试测试测试测试i测试测试测试测试测试</li>
+			</ul>
+		</div>
+
+	</div>
+	<style type="text/css">
+	.test{position:relative; width:20px;height:200px; border:1px solid #ccc;}
+	.up{position: absolute; top:0; left:0; width:20px; height:20px; border-bottom:1px solid #999;}
+	.up:after{content: ""; position:absolute; top:50%; left:50%; }
+	.down{position: absolute; bottom:0; left:0; width:20px; height:20px; border-top:1px solid #999;}
+	</style>
+
+	<div class="test">
+		<p class="up"></p>
+		<div class="bar"></div>
+		<p class="down"></p>
+	</div>
+</body>
+</html>
